@@ -1,0 +1,9 @@
+*** SLURM BATCH JOB 'Part1_run_boox' STARTING ***
+*** Activating environment cs236781-hw ***
+[NbConvertApp] Converting notebook /home/kfirgirstein/hw3/Part2_VAE.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 1585605 bytes to /home/kfirgirstein/hw3/Part2_VAE.ipynb
+>> Running 1 notebooks...
+>> Running nbconvert on notebook /home/kfirgirstein/hw3/Part2_VAE.ipynb [execute|inplace]
+>> Finished nbconvert on notebook /home/kfirgirstein/hw3/Part2_VAE.ipynb, elapsed=236.820s
+*** SLURM BATCH JOB 'Part1_run_boox' DONE ***

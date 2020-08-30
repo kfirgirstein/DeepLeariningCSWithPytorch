@@ -1,0 +1,39 @@
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 32 -L 2 -P 8 --reg 0.005 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 32 -L 4 -P 8  --reg 0.005 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 32 -L 8  -P 8  --reg 0.005 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 32 -L 16 -P 8 --reg 0.005 --lr 0.05 
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 64 -L 2 -P 8 --reg 0.005 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 64 -L 4 -P 8 --reg 0.005 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 64 -L 8 -P 8 --reg 0.005 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_1 -M cnn -K 64 -L 16 -P 8 --reg 0.005 --lr 0.05
+
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 32 -L 2 -P 2 --reg 0.01 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 64 -L 2 -P 2 --reg 0.01 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 128 -L 2 -P 2 --reg 0.01 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 256 -L 2 -P 2  --reg 0.01 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 32 -L 4 -P 4 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 64 -L 4 -P 4 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 128 -L 4 -P 4 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp2_2 -M cnn -K 256 -L 4 -P 4 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 32 -L 8 -P 8 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 64 -L 8 -P 8 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 128 -L 8 -P 8  --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_2 -M cnn -K 256 -L 8 -P 8 --reg 0.01--early-stopping 20 --lr 0.05
+
+./py-sbatch-exp.sh --run-name exp1_3 -M cnn -K 64 128 256 -L 1 -P 8 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_3 -M cnn -K 64 128 256 -L 2 -P 8 --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_3 -M cnn -K 64 128 256 -L 3 -P 8  --reg 0.01 --early-stopping 20 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_3 -M cnn -K 64 128 256 -L 4 -P 8  --reg 0.01 --early-stopping 20 --lr 0.05
+
+./py-sbatch-exp.sh --run-name exp1_4 -M resnet  -K 32 -L 8 -P 16  --reg 0.001 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_4 -M resnet -K 32 -L 16 -P 16 --reg 0.001 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_4 -M resnet -K 32 -L 32 -P 16 --reg 0.001 --lr 0.05
+./py-sbatch-exp.sh --run-name exp1_4 -M resnet -K 64 128 256 -L 2 -P 12 --reg 0.001 --early-stopping 10 --lr 0.03
+./py-sbatch-exp.sh --run-name exp1_4 -M resnet -K 64 128 256 -L 4 -P 12 --reg 0.001 --early-stopping 10 --lr 0.03
+./py-sbatch-exp.sh --run-name exp1_4 -M resnet -K 64 128 256 -L 8 -P 12 --reg 0.001 --early-stopping 10 --lr 0.03
+
+./py-sbatch-exp.sh --run-name exp2 -M ycn -K 32 64 128 -L 3 -P 15 --reg 0.05 --early-stopping 15 --lr 0.03
+./py-sbatch-exp.sh --run-name exp2 -M ycn -K 32 64 128 -L 6 -P 15 --reg 0.05 --early-stopping 15 --lr 0.03
+./py-sbatch-exp.sh --run-name exp2 -M ycn -K 32 64 128 -L 9 -P 15 --reg 0.05 --early-stopping 15 --lr 0.03
+./py-sbatch-exp.sh --run-name exp2 -M ycn -K 32 64 128 -L 12 -P 15 --reg 0.05 --early-stopping 15 --lr 0.03
+ 
